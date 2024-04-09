@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Hero } from '../components'
+import { Navbar, Hero, Footer } from '../components'
 import './Intro.css'
 
 const Intro = () => {
@@ -20,6 +20,7 @@ const Intro = () => {
     <div id="cursor-dot"></div>
     <Navbar />
     <Hero />
+    <Footer />
     </>
   )
 }

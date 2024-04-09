@@ -12,11 +12,12 @@ const Hero = () => {
       strings: [
             'Artwork.',  
             'Favourite screenshot.', 
-            'Design.',
-            'Creation.',
+            'Designs.',
+            'Creations.',
             'Photoshop Masterpiece.',
             'Favourite meme.',
-            'Best friend\'s cat pictures.'
+            'Best friend\'s cat pictures.',
+            'New highscore on tetris.'
       ],
       typeSpeed: 70,
       loop: true,

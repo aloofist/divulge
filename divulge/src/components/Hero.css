@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    cursor: default;
 }
 
 .main > .info > h1, .main > .info > h1 > .magic-words {
