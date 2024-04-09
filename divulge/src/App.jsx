@@ -1,10 +1,17 @@
 import React from 'react'
-import { Navbar } from './components'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { Intro, Gallery, Generate } from './Pages'
 
 const App = () => {
-  <div className='bg-black'>
-    
-  </div>
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Intro/>}/>
+        <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/generate" element={<Generate/>}/>
+      </Routes>
+    </Router>
+  )
 }
 
 export default App

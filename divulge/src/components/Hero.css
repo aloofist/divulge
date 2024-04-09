@@ -1,0 +1,63 @@
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10%;
+}
+
+.main > #background-cards {
+    transform: scale(150%);
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+
+.main > .info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main > .info > h1, .main > .info > h1 > .magic-words {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    
+}
+
+.main > .info > h1 {
+    font-size: 80px;
+}
+
+.main > .info > h1 > .magic-words {
+    animation: background-pan 2.5s linear infinite;
+    background: linear-gradient(
+        to right, 
+        var(--purple),
+        var(--hotpink),
+        var(--lightpink),
+        var(--purple)
+    );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: -200% center;
+    }
+}
+
+.main > .info > p {
+    font-size: 22px;
+    max-width: 65ch;
+    font-family: "Judson", serif;
+}

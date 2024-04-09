@@ -5,3 +5,14 @@
   padding: 0px;
   margin: 0px;
 }
+
+body {
+  background-color: black;
+  color: white;
+}
+
+:root {
+  --purple: #884cce;
+  --hotpink: #dd73c6;
+  --lightpink: #f1c4db;
+}
