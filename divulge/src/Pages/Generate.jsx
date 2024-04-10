@@ -1,10 +1,11 @@
 import React from 'react'
+import { Navbar } from '../components'
 
 const Generate = () => {
   return (
-    <div>
-      Generate
-    </div>
+    <>
+    <Navbar/>
+    </>
   )
 }
 

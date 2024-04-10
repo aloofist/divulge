@@ -14,15 +14,18 @@
     justify-content: space-between;
 }
 
-.navbar-wrapper > h1 {
+#divulge {
     font-family: "Sansita", sans-serif;
     font-weight: 700;
     font-style: italic;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
 }
 
 .navbar-wrapper > ul {
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
     list-style-type: none;
     font-size: large;
     cursor: pointer;
