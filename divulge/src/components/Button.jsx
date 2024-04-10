@@ -3,7 +3,7 @@ import './Button.css'
 
 const Button = () => {
   return (
-    <button>head to the gallery</button>
+    <button href>head to the gallery</button>
   )
 }
 

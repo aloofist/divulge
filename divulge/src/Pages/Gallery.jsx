@@ -1,10 +1,14 @@
 import React from 'react'
-import { Navbar } from '../components'
+import { Navbar, ExploreGallery, MainGallery } from '../components'
+import './Gallery.css'
 
 const Gallery = () => {
   return (
     <>
+    <div id="gallery-blob"></div>
     <Navbar/>
+    <ExploreGallery/>
+    <MainGallery/>
     </>
   )
 }

@@ -1,15 +1,22 @@
-/* #cursor-dot {
+
+#cursor-dot {
     width: 5rem;
     height: 5rem;
     background-color: white;
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+    z-index: 10;
     border-radius: 50%;
     mix-blend-mode: difference;
-} */
+
+    pointer-events: none;
+}
 
 ::-webkit-scrollbar {
     width: 3px;
+    height: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -24,4 +31,74 @@
         black,
         black
     );
+}
+
+#blur {
+    height: 120%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    backdrop-filter: blur(200px);
+    top: 0;
+    left: 0;
+}
+
+#blob {
+    background-color: #fff;
+    height: 50%;
+    opacity: 60%;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: #E37310;
+    animation: rotate 30s infinite;
+    z-index: -3;
+    filter: blur(100px);
+}
+
+#blob1{
+    position: absolute;
+    background-color: #6704D9;
+    width: 30%;
+    height: 30%;
+    left: 10%;
+    top: 25%;
+    z-index: -3;
+    /* filter: blur(150px); */
+    border-radius: 50%;
+    opacity: 70%;
+    rotate: 58deg;
+    animation: rotate 20s infinite;
+    filter: blur(100px);
+}
+
+#blob2{
+    position: absolute;
+    background-color: #fff;
+    /* filter: blur(150px); */
+    width: 31%;
+    height: 50%;
+    left: 55%;
+    top: 40%;
+    z-index: -3;
+    border-radius: 50%;
+    opacity: 28%;
+    rotate: -200deg;
+    animation: rotate 10s infinite;
+    filter: blur(100px);
+}
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+    50% {
+        scale: 1 1.5;
+    }
+    to {
+        rotate: 360deg;
+    }
 }

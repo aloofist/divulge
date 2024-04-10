@@ -21,6 +21,15 @@
     font-size: 2rem;
     text-decoration: none;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#logo{
+    height: 50px;
+    transform: translateY(10%);
 }
 
 .navbar-wrapper > ul {
@@ -35,7 +44,7 @@
     font-family: "Judson", serif;
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .navbar-wrapper > ul > a:after {
@@ -49,4 +58,22 @@
 
 .navbar-wrapper > ul > a:hover:after { 
     transform: scaleX(1);
+}
+
+#hamburger{
+    display: none;
+    height: 50px;
+}
+
+#hamburger > img {
+    height: 50px;
+}
+
+@media (max-width: 800px) {
+    #hamburger {
+        display: block;
+    }
+    .navbar-wrapper > ul{
+        display: none;
+    }
 }

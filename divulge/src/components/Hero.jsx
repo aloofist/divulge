@@ -24,13 +24,13 @@ const Hero = () => {
     });
 
     return () => {
-      // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
   }, []);
+  
 
   return (
-    <div class="main">
+    <div class="main noselect">
 
         <div class="info">
             <h1>Share your
