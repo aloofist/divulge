@@ -12,26 +12,26 @@ const UserPosts = () => {
       <div className="gallery">
 
         <div className='gallery-item'>
-          <img src="https://www.pictureframesexpress.co.uk/blog/wp-content/uploads/2020/05/7-Tips-to-Finding-Art-Inspiration-Header-1024x649.jpg" alt="" />
+          <img src="https://shorturl.at/hmpL2" alt="" />
         </div>
 
         <div className='gallery-item'>
-          <img src="https://i.pinimg.com/564x/4f/32/8a/4f328a8851d8f8de2311261fae488c28.jpg" alt="" />
+          <img src="https://shorturl.at/hmpL2" alt="" />
         </div>
 
         <div className='gallery-item'>
-          <img src="https://www.pictureframesexpress.co.uk/blog/wp-content/uploads/2020/05/7-Tips-to-Finding-Art-Inspiration-Header-1024x649.jpg" alt="" />
+          <img src="https://shorturl.at/hmpL2" alt="" />
         </div>
         <div className='gallery-item'>
-          <img src="https://i.pinimg.com/564x/02/ce/e9/02cee96c8bafe5407d9eca32d52f8ba8.jpg" alt="" />
-        </div>
-
-        <div className='gallery-item'>
-          <img src="https://th.bing.com/th/id/R.148abf14f86605e2a41bf57a7eb3c41a?rik=hr9DwTQGITYpAQ&pid=ImgRaw&r=0" alt="" />
+          <img src="https://shorturl.at/hmpL2" alt="" />
         </div>
 
         <div className='gallery-item'>
-          <img src="https://www.pictureframesexpress.co.uk/blog/wp-content/uploads/2020/05/7-Tips-to-Finding-Art-Inspiration-Header-1024x649.jpg" alt="" />
+          <img src="https://shorturl.at/hmpL2" alt="" />
+        </div>
+
+        <div className='gallery-item'>
+          <img src="https://shorturl.at/hmpL2" alt="" />
         </div>
     </div>
     </div>

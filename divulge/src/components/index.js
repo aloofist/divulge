@@ -9,7 +9,7 @@ import MainGallery from "./MainGallery";
 import UserPosts from "./UserPosts";
 import CreatePost from "./CreatePost";
 
-import Generator from "./generator";
+import IdeaGenerator from "./IdeaGenerator";
 
 export {
     Navbar,
@@ -25,5 +25,5 @@ export {
     CreatePost,
 
     //Generator
-    Generator
+    IdeaGenerator
 }

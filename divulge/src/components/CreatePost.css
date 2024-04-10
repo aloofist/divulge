@@ -1,6 +1,6 @@
 .app {
     max-width: 800px;
-    height: 30rem;
+    max-height: 30rem;
     margin: auto;
     font-family: "Inter", sans-serif;
     display: flex;
@@ -28,7 +28,6 @@ input[type="file"] {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    border-radius: 12px;
     border: solid 1px white;
     background-color: grey;
     margin: 1rem;
