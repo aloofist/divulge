@@ -1,0 +1,39 @@
+.app {
+    max-width: 800px;
+    height: 30rem;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    display: none; 
+    /* to hide the default file input */
+}
+
+.file-upload-label {
+    padding: 10px;
+    background-color: #0000007c;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    border: solid 1px white;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 12px;
+    border: solid 1px white;
+    background-color: grey;
+    margin: 1rem;
+}
+
+.upload{
+    margin: 1rem;
+}
