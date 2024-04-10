@@ -28,7 +28,7 @@ const MainGallery = () => {
         </div>
 
         <div className='gallery-item'>
-          <img src="https://th.bing.com/th/id/R.148abf14f86605e2a41bf57a7eb3c41a?rik=hr9DwTQGITYpAQ&pid=ImgRaw&r=0" alt="" />
+          <img src="./divulge_logo.jpg" alt="" />
         </div>
 
         <div className='gallery-item'>
@@ -47,7 +47,7 @@ const MainGallery = () => {
         </div>
 
         <div className='gallery-item'>
-          <img src="https://th.bing.com/th/id/R.148abf14f86605e2a41bf57a7eb3c41a?rik=hr9DwTQGITYpAQ&pid=ImgRaw&r=0" alt="" />
+          <img src="./divulge_logo.jpg" alt="" />
         </div>
 
         <div className='gallery-item'>
@@ -66,7 +66,7 @@ const MainGallery = () => {
         </div>
 
         <div className='gallery-item'>
-          <img src="https://th.bing.com/th/id/R.148abf14f86605e2a41bf57a7eb3c41a?rik=hr9DwTQGITYpAQ&pid=ImgRaw&r=0" alt="" />
+          <img src="./divulge_logo.jpg" alt="" />
         </div>
 
       </div>

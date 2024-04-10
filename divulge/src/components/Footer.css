@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     font-family: "Judson", serif;
+    padding: 3rem;
 }
 
 .footer > img {

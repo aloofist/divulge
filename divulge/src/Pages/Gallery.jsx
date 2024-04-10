@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, ExploreGallery, MainGallery } from '../components'
+import { Navbar, ExploreGallery, MainGallery, Footer } from '../components'
 import './Gallery.css'
 
 const Gallery = () => {
@@ -21,6 +21,7 @@ const Gallery = () => {
     <Navbar/>
     <ExploreGallery/>
     <MainGallery/>
+    <Footer/>
     </>
   )
 }
