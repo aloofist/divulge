@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Footer } from '../components'
 
-const Generate = () => {
+const User = () => {
   return (
     <>
     <Navbar/>
@@ -10,4 +10,4 @@ const Generate = () => {
   )
 }
 
-export default Generate
+export default User

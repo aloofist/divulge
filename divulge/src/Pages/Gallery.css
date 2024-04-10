@@ -2,16 +2,16 @@
     position: absolute;
     background-color: white;
     background: linear-gradient(
-        #4A1D5A,
-        rgba(255, 166, 0, 0.37)
+        #b614f1,
+        rgb(255, 166, 0)
     );
     width: 30%;
     height: 40%;
     left: 7%;
-    top: 50%;
+    top: 60%;
     z-index: -3;
     border-radius: 50%;
     opacity: 60%;
     animation: rotate 20s infinite;
-    filter: blur(170px);
+    filter: blur(200px);
 }

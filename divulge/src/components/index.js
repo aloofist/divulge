@@ -6,6 +6,9 @@ import Footer from "./Footer";
 import ExploreGallery from "./ExploreGallery";
 import MainGallery from "./MainGallery";
 
+import UserPosts from "./UserPosts";
+import CreatePost from "./CreatePost";
+
 export {
     Navbar,
     Hero,
@@ -13,5 +16,9 @@ export {
     Footer,
     //Gallery page
     ExploreGallery,
-    MainGallery
+    MainGallery,
+    
+    //User page
+    UserPosts,
+    CreatePost
 }

@@ -9,7 +9,7 @@ const Navbar = () => {
             <ul>
                 <a href='#gallery'>Gallery</a>
                 <a href='#generate'>Generate</a>
-                <a href='#'>Posts</a>
+                <a href='#user'>User</a>
             </ul>
             <a href="" id='hamburger'>
               <img src="/hamburger.svg" alt="hamburger"/>
