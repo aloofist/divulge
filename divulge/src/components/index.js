@@ -9,6 +9,8 @@ import MainGallery from "./MainGallery";
 import UserPosts from "./UserPosts";
 import CreatePost from "./CreatePost";
 
+import Generator from "./generator";
+
 export {
     Navbar,
     Hero,
@@ -20,5 +22,8 @@ export {
     
     //User page
     UserPosts,
-    CreatePost
+    CreatePost,
+
+    //Generator
+    Generator
 }
