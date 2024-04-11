@@ -73,17 +73,17 @@ const Generate = () => {
       <Navbar />
       <Footer />
       <div className="generate">
-      <animated.div
-        id="gallery-blob"
-        style={{
-          position: 'absolute',
-          ...animatedProps,
-        }}
-      ></animated.div>
-        <h1 id="idea" className='magic-words'>{idea}</h1>
-        <button id="generate-btn" onClick={generateIdea}>
-          Generate
-        </button>
+        <animated.div
+          id="gallery-blob"
+          style={{
+            position: 'absolute',
+            ...animatedProps,
+          }}
+        ></animated.div>
+          <h1 id="idea" className='magic-words'>{idea}</h1>
+          <button id="generate-btn" onClick={generateIdea}>
+            Generate
+          </button>
       </div>
     </>
   );
