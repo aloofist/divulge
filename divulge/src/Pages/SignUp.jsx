@@ -20,6 +20,7 @@ const SignUp = () => {
                 <input type="checkbox"/>
                 <p>Agree to Divulge's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
             </span>
+            <button>Sign Up</button>
         </div>
     </>
   )

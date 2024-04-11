@@ -18,6 +18,7 @@ const Login = () => {
                 <input type="checkbox"/>
                 <p>Agree to Divulge's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
             </span>
+            <button>Login</button>
         </div>
     </>
   )
