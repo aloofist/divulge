@@ -1,18 +1,18 @@
 
-#cursor-dot {
+#circle {
     width: 5rem;
     height: 5rem;
     background-color: white;
     position: fixed;
     left: 0px;
     top: 0px;
-
+    transform: translateX(-50%) translateY(-50%);
     z-index: 10;
     border-radius: 50%;
     mix-blend-mode: difference;
-
     pointer-events: none;
 }
+
 
 ::-webkit-scrollbar {
     width: 3px;

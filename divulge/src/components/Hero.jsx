@@ -19,7 +19,7 @@ const Hero = () => {
             'Best friend\'s cat pictures.',
             'New highscore on tetris.'
       ],
-      typeSpeed: 70,
+      typeSpeed: 80,
       loop: true,
     });
 
