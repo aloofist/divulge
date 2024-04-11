@@ -7,6 +7,11 @@ const User = () => {
     <Navbar/>
     <CreatePost/>
     <UserPosts/>
+      <div>
+        <a href="#login">Login page</a>
+        <br/>
+        <a href="#signup">Signup page</a>
+      </div>
     <Footer/>
     </>
   )
