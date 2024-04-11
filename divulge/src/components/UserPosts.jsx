@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useState, useEffect} from 'react'
 import './UserPosts.css'
 
 const UserPosts = () => {
+
+  const [images, setImages] = useState([]);
+
+  //apparently this fetches images from backend so yeah
+  useEffect(() => {
+      fetch('/api/images') //replace the path with the actual path to the image database
+        .then(response => response.json())
+        .then(data => setImages(data))
+        .catch(error => console.error('Error fetching images:', error));
+  }, []);
+
   return (
     <div className='main-gallery your-posts'>
       <p>Your Posts
@@ -12,9 +23,11 @@ const UserPosts = () => {
       
       <div className="gallery">
 
-        <div className='gallery-item'>
-          <img src="https://shorturl.at/hmpL2" alt="" />
-        </div>
+        {images.map((imageUrl, index) => (
+            <div key={index} className='gallery-item'>
+              <img src={imageUrl} alt={`Gallery item ${index}`} />
+            </div>
+        ))}
 
         <div className='gallery-item'>
           <img src="https://shorturl.at/hmpL2" alt="" />
@@ -23,10 +36,10 @@ const UserPosts = () => {
         <div className='gallery-item'>
           <img src="https://shorturl.at/hmpL2" alt="" />
         </div>
+
         <div className='gallery-item'>
           <img src="https://shorturl.at/hmpL2" alt="" />
         </div>
-
         <div className='gallery-item'>
           <img src="https://shorturl.at/hmpL2" alt="" />
         </div>

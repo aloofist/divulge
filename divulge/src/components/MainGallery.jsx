@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useState, useEffect} from 'react'
 import './MainGallery.css'
 
 const MainGallery = () => {
+
+ const [images, setImages] = useState([]);
+
+  //apparently this fetches backend so yeah
+  useEffect(() => {
+      fetch('/api/images') //replace the path with the actual path to the image database
+        .then(response => response.json())
+        .then(data => setImages(data))
+        .catch(error => console.error('Error fetching images:', error));
+  }, []);
+
   return (
     <div className='main-gallery'>
       <p>Recent
@@ -11,6 +22,12 @@ const MainGallery = () => {
       </p> 
       
       <div className="gallery">
+
+        {images.map((imageUrl, index) => (
+            <div key={index} className='gallery-item'>
+              <img src={imageUrl} alt={`Gallery item ${index}`} />
+            </div>
+        ))}
 
         <div className='gallery-item'>
           <img src="https://www.pictureframesexpress.co.uk/blog/wp-content/uploads/2020/05/7-Tips-to-Finding-Art-Inspiration-Header-1024x649.jpg" alt="" />
