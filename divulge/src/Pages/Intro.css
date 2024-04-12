@@ -59,6 +59,12 @@
     filter: blur(100px);
 }
 
+@media (max-width: 400px) {
+    #blob, #circle {
+        display: none;
+    }
+}
+
 #blob1{
     position: absolute;
     background-color: #6704D9;

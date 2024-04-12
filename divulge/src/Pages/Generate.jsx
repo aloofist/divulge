@@ -62,28 +62,32 @@ const Generate = () => {
  }, []);
 
   const animatedProps = useSpring({
-    left: cursorPosition.x,
-    top: cursorPosition.y,
+    left: cursorPosition.x - 700,
+    top: cursorPosition.y - 400,
     config: { tension: 100, friction: 100 },
   });
 
   return (
     <>
     
-      <Navbar />
-      <Footer />
-      <div className="generate">
-        <animated.div
-          id="gallery-blob"
-          style={{
-            position: 'absolute',
-            ...animatedProps,
-          }}
-        ></animated.div>
-          <h1 id="idea" className='magic-words'>{idea}</h1>
-          <button id="generate-btn" onClick={generateIdea}>
-            Generate
-          </button>
+      <div className='generate-wrapper'>
+        <Navbar />
+        <Footer />
+
+        <div className="generate">
+          <animated.div
+            id="gallery-blob"
+            style={{
+              position: 'absolute',
+              ...animatedProps,
+            }}
+          ></animated.div>
+            <h1 id="idea" className='magic-words'>{idea}</h1>
+            <button id="generate-btn" onClick={generateIdea}>
+              Generate
+            </button>
+        </div>
+
       </div>
     </>
   );

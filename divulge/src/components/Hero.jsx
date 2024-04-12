@@ -33,7 +33,8 @@ const Hero = () => {
     <div class="main noselect">
 
         <div class="info">
-            <h1>Share your
+            <h1>
+              <span>Share your</span>
                 <br/>
                 <span class="magic-words">Creations.</span>
             </h1>

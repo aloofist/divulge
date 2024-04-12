@@ -63,3 +63,19 @@
     max-width: 65ch;
     font-family: "Judson", serif;
 }
+
+@media (max-width: 400px) {
+    .main > #background-cards {
+        transform: scale(50%);
+        position: absolute;
+        left: -40%;
+        top: -10%;
+    }
+    .main {
+        max-width: 100VW;
+    }
+    .info > h1 > span {
+        font-size: 4rem;
+        text-wrap: wrap;
+    }
+}

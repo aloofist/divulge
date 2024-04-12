@@ -17,7 +17,11 @@ const Intro = () => {
 
  useEffect(() => {
     const handleMouseMove = (event) => {
-      setCursorPosition({ x: event.clientX, y: event.clientY });
+      // Calculate the cursor's position relative to the document
+      const x = event.clientX + window.scrollX;
+      const y = event.clientY + window.scrollY;
+
+      setCursorPosition({ x, y });
     };
 
     document.addEventListener('pointermove', handleMouseMove);
