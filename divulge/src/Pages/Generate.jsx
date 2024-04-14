@@ -83,7 +83,7 @@ const Generate = () => {
             }}
           ></animated.div>
             <h1 id="idea" className='magic-words'>{idea}</h1>
-            <button id="generate-btn" onClick={generateIdea}>
+            <button className='special-button' id="generate-btn" onClick={generateIdea}>
               Generate
             </button>
         </div>

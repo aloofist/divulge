@@ -1,0 +1,36 @@
+.logout-area {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+.logout-area > a {
+    width: 100%;
+    
+}
+
+.logout-area > a:focus {
+    width: 100%;
+    outline: 2px solid blue;
+    
+}
+
+#logout-btn {
+    width: 100%;
+    color: rgba(255, 0, 0, 0.7);
+    border: solid 1px rgba(255, 0, 0, 0.7);
+    background-color: black;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+#logout-btn:hover{
+    border: solid 1px red;
+    color: red;
+}

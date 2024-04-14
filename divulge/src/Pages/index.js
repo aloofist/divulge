@@ -4,6 +4,7 @@ import Generate from "./Generate";
 import User from "./User";
 import SignUp from "./SignUp";
 import Login from "./Login";
+import Post from "./Post";
 
 export {
     Intro,
@@ -11,5 +12,6 @@ export {
     Generate,
     User,
     SignUp,
-    Login
+    Login,
+    Post
 }
