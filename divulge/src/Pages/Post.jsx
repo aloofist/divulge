@@ -65,7 +65,7 @@ const Post = () => {
           ...animatedBlob,
         }}
       ></animated.div>
-      
+
         <Navbar/>
         <div className='post-card'>
             <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt="" data-zoomable />

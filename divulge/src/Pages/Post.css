@@ -11,6 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    cursor: none;
 }
 
 .post-card > img{

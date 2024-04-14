@@ -31,16 +31,6 @@ const User = () => {
   return (
     <>
 
-      <animated.div
-        id="circle"
-        style={{
-          position: 'absolute',
-          ...animatedCircle,
-        }}
-      ></animated.div>
-
-      
-
       <Navbar/>
 
       <CreatePost/>
