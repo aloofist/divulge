@@ -65,20 +65,19 @@ const SignUp = () => {
             <p>Password</p>
             <input type="text" id="password" placeholder='At least 8 characters please'/>
             
-            <span>
-                <input type="checkbox"/>
-                <p>Agree to Divulge's 
-                  <a href="https://docs.google.com/document/d/1U8hsL9vHdG43k5H_4cG3Aqnbl28BQ41Py-KXJdIMwlw/edit?usp=sharing" target='_'> Terms of Service </a> 
+            <span style={{marginTop: '2rem', marginBottom: '2rem'}}>
+                {/* <input type="checkbox"/> */}
+                <p style={{maxWidth: '30rem', textAlign: 'center', fontFamily: '"Inter", sans-serif'}}>By signing up, you agree to <br />  Divulge's 
+                  <a href="https://docs.google.com/document/d/1U8hsL9vHdG43k5H_4cG3Aqnbl28BQ41Py-KXJdIMwlw/edit?usp=sharing" target='_'> <i>Terms of Service</i> </a> 
                   and 
-                  <a href="https://docs.google.com/document/d/1aZFdM2WzPA9WapUo-NcRaEZGwl8-Ueid05nycn7-GXQ/edit?usp=sharing" target='_'> Privacy Policy </a>
+                  <a href="https://docs.google.com/document/d/1aZFdM2WzPA9WapUo-NcRaEZGwl8-Ueid05nycn7-GXQ/edit?usp=sharing" target='_'> <i>Privacy Policy.</i></a>
                 </p>
             </span>
 
-            <p>Already have an account? 
+            <button>Sign Up</button>
+            <p style={{fontStyle: 'italic'}}>Already have an account? 
               <a href="#login"> Login</a>
             </p>
-
-            <button>Sign Up</button>
         </div>
         <Footer/>
     </>

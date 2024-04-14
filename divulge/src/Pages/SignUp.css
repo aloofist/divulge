@@ -39,6 +39,7 @@
     font-family: "Inter", sans-serif;
     margin-bottom: 3rem;
     text-align: center;
+    font-size: 1.8rem;
 }
 
 .login > p {
@@ -97,8 +98,9 @@ input[type=checkbox]{
     cursor: pointer;
     padding: 0.5rem;
     width: 30%;
-    font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-family: "Judson", serif;
+    font-size: 1.3rem;
+    font-style: italic;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #894cce56;
     color: white;

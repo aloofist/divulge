@@ -1,5 +1,4 @@
 import React from 'react'
-import './Login.css'
 import { Navbar } from '../components'
 
 const Login = () => {
@@ -7,12 +6,12 @@ const Login = () => {
     <>
         <Navbar/>
         <div className='login'>
-            <h1>Login</h1>
+            <h1>Login to <span id="divulge-login">Divulge</span></h1>
             
-            <p>Email</p>
-            <input type="text" id="email"/>
+            <p>Username</p>
+            <input type="text" id="email" placeholder='e.g. aloofist'/>
             <p>Password</p>
-            <input type="text" id="password"/>
+            <input type="text" id="password" placeholder='It should be at least 8 characters long'/>
             
             <button>Login</button>
         </div>
