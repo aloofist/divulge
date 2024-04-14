@@ -4,7 +4,7 @@ import './SignUp.css'
 import { Navbar, Footer } from '../components'
 
 const SignUp = () => {
-
+  //for blobs
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
