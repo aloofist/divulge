@@ -79,7 +79,6 @@ const SignUp = () => {
               <a href="#login"> Login</a>
             </p>
         </div>
-        <Footer/>
     </>
   )
 }
