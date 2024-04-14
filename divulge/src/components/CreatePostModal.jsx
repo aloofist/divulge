@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './CreatePost.css';
 
-const CreatePost = () => {
+const CreatePostModal = () => {
     const [previewUrl, setPreviewUrl] = useState('');
 
     const handleFileUpload = (event) => {
@@ -52,6 +52,6 @@ const CreatePost = () => {
             )}
         </div>
     );
-};
+}
 
-export default CreatePost;
+export default CreatePostModal

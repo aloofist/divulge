@@ -25,12 +25,16 @@ const MainGallery = () => {
 
         {images.map((imageUrl, index) => (
             <div key={index} className='gallery-item'>
-              <img src={imageUrl} alt={`Gallery item ${index}`} />
-            </div>
+              <a href="#post">
+                <img src={imageUrl} alt={`Gallery item ${index}`} />
+              </a>
+          </div>
         ))}
 
         <div className='gallery-item'>
-          <img src="https://www.pictureframesexpress.co.uk/blog/wp-content/uploads/2020/05/7-Tips-to-Finding-Art-Inspiration-Header-1024x649.jpg" alt="" />
+          <a href="#post">
+            <img src="https://www.pictureframesexpress.co.uk/blog/wp-content/uploads/2020/05/7-Tips-to-Finding-Art-Inspiration-Header-1024x649.jpg" alt="" />
+          </a>
         </div>
 
         <div className='gallery-item'>

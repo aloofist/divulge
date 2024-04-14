@@ -1,0 +1,72 @@
+.medium-zoom-image--opened {
+    object-fit: contain;
+}
+
+
+.post-card {
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.post-card > img{
+   width: 100%;
+   max-width: 80vw;
+   max-height: 70vh;
+   object-fit: contain;
+}
+
+.post-info {
+    font-family: "Judson", serif;
+}
+
+.post-info > h1 {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.post-info > p {
+    font-size: large;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.post-info > h2 {
+    font-size: large;
+    font-weight: 500;
+}
+
+.post-info > p > button {
+    background: linear-gradient(
+        to right,
+        #8b94ee,
+        #8b94ee
+    );
+    border: none;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-family: "Judson", serif;
+}
+
+.post-info > p > button > i {
+    transform: translateY(10%);
+}
+
+.post-info > p > #username {
+    transform: translateX(-5%);
+}
+
+.divider {
+    content: "";
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
