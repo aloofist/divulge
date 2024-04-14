@@ -30,9 +30,9 @@ const Hero = () => {
   
 
   return (
-    <div class="main noselect nocursor">
+    <div className="main noselect nocursor">
 
-        <div class="info">
+        <div className="info nocursor">
             <h1 className='nocursor'>
               <span>Share your</span>
                 <br/>
@@ -42,7 +42,7 @@ const Hero = () => {
             <Button />
         </div>
 
-        <svg id="background-cards" className='nocursor' width="809" height="955" viewBox="0 0 809 955" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="background-cards" width="809" height="955" viewBox="0 0 809 955" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="251" y="205" width="219" height="329" rx="10" fill="#D9D9D9" fill-opacity="0.15"/>
             <rect x="489" y="403" width="224" height="343" rx="10" fill="#D9D9D9" fill-opacity="0.15"/>
             <rect x="150" y="552" width="320" height="142" rx="10" fill="#D9D9D9" fill-opacity="0.15"/>

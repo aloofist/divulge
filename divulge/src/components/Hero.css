@@ -6,6 +6,7 @@
     padding: 10%;
 }
 
+
 .main > #background-cards {
     transform: scale(150%);
     z-index: -1;
@@ -64,7 +65,14 @@
     font-family: "Judson", serif;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1000px) {
+    .info > h1 > span {
+        font-size: 4rem;
+        text-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px) {
     .main > #background-cards {
         transform: scale(50%);
         position: absolute;
