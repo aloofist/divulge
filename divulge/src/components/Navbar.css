@@ -144,3 +144,12 @@
     }
 }
 
+.linkz{
+    display: flex;
+    gap: 1rem;
+}
+
+.linkz > a {
+    color: white;
+    
+}
