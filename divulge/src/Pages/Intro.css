@@ -18,6 +18,9 @@
     #circle {
         display: none;
     }
+    #blob {
+        display: none;
+    }
 }
 
 ::-webkit-scrollbar {
