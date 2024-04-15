@@ -42,12 +42,12 @@
 }
 
 
-.gallery > .gallery-item > img{
+.gallery > .gallery-item > a > img{
     object-fit: cover;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 
-.gallery > .gallery-item:hover img {
+.gallery > .gallery-item:hover a > img {
     transform: scale(1.1);
 }
 
