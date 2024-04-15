@@ -80,7 +80,7 @@ const Navbar = () => {
                 <div className="linkz">
                   <a href="https://discord.com/invite/HHuDE58QYy" target="_"><i class="ri-discord-fill"></i></a>
                   <a href="https://twitter.com/aloofistprojs" target="_"><i class="ri-twitter-fill"></i></a>
-                  <a href="https://github.com/aloofist"><i class="ri-github-fill" target="_"></i></a>
+                  <a href="https://github.com/aloofist" target="_"><i class="ri-github-fill" ></i></a>
                 </div>
             </div>
         </div>

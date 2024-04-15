@@ -131,9 +131,8 @@
 .close {
     color: #fff;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    float: right;
+    top: 5%;
+    right: 5%;
     font-size: 5rem;
     cursor: pointer;
 }
@@ -142,14 +141,21 @@
     .modal-content p{
         font-size: 15vw;
     }
+    .close {
+        font-size: 20vw;
+    }
+    .linkz {
+        transform: scale(90%);
+    }
 }
 
 .linkz{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    padding: 1rem;
 }
 
 .linkz > a {
     color: white;
-    
+    transform: scale(200%);
 }
