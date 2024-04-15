@@ -98,14 +98,14 @@
     transform: translateX(100%);
     transition: transform 0.3s ease-out;
     background-color: #000000;
-   }
-   
-   .modal.show {
+}
+
+.modal.show {
     display: block;
     transform: translateX(0);
-   }
-   
-   .modal-content {
+}
+
+.modal-content {
     font-family: "Azeret Mono", monospace;
     height: 100vh;
     display: flex;
@@ -113,22 +113,22 @@
     width: 30rem;
     margin: auto;
     margin-top: 10rem;
-   }
+}
 
-   .modal-content a {
+.modal-content a {
     margin: 0.5rem;
-   }
+}
 
-   .modal-content p {
+.modal-content p {
     background-color: white;
     color: black;
     font-family: "Azeret Mono", monospace;
     width: fit-content;
     padding: 0.5rem 1rem;
     font-size: 5rem;
-   }
-   
-   .close {
+}
+
+.close {
     color: #fff;
     position: absolute;
     top: 1rem;
@@ -136,4 +136,11 @@
     float: right;
     font-size: 5rem;
     cursor: pointer;
-   }
+}
+
+@media (max-width: 500px) {
+    .modal-content p{
+        font-size: 15vw;
+    }
+}
+
