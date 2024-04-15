@@ -61,17 +61,20 @@ const Navbar = () => {
         <div id="myModal" className={`modal ${isModalOpen ? 'show' : ''}`}>
             <div className="modal-content">
                 <span className="close" onClick={handleCloseModal}>X</span>
-                <a href="">
+                <a href="#user">
                   <p className='words' data-value="POST">POST</p>
                 </a>
-                <a href="">
+                <a href="#gallery">
                   <p className='words' data-value="GALLERY">GALLERY</p>
                 </a>
-                <a href="">
+                <a href="#generate">
                   <p className='words' data-value="GENERATE">GENERATE</p>
                 </a>
-                <a href="">
+                <a href="#signup">
                   <p className='words' data-value="SIGN/UP">SIGN/UP</p>
+                </a>
+                <a href="https://github.com/aloofist" target='_'>
+                  <p className='words' data-value="GITHUB">GITHUB</p>
                 </a>
             </div>
         </div>
