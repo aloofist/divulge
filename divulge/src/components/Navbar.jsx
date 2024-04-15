@@ -34,7 +34,8 @@ const Navbar = () => {
             iterations += 1 / 3;
         }, 30);
     };
-});
+  });
+
   return (
     <div class="navbar noselect">
         <div class="navbar-wrapper">
