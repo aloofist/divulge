@@ -28,7 +28,7 @@
     text-align: center;
     text-wrap: balance;
     max-width: 50%;
-    transform: translateY(-30%);
+    transform: translateY(-20%);
 }
 
 .generate > button {

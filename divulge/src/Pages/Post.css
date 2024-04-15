@@ -14,6 +14,10 @@
     cursor: none;
 }
 
+.post-card > #blob{
+    filter: blur(300px);
+}
+
 .post-card > img{
    width: 100%;
    max-width: 80vw;
@@ -68,6 +72,53 @@
 
 .divider {
     content: "";
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.3); */
+    border-bottom: solid 1px;
+    border-image: linear-gradient(to right, 
+    rgba(0, 0, 0, 0) 0.1%,
+    #f1c4db, 
+    #f1c4db, 
+    #884cce,
+    #884cce,
+    #f1c4db,
+    #f1c4db,
+    #884cce,
+    black 99.9%
+    ) 1;
     width: 100%;
+}
+
+.comment-section {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.commenter {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    gap: 0.5rem;
+    color: #ece1f8;
+}
+
+.commenter > input{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 100%;
+    color: #ece1f8;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+.commenter > input::placeholder{
+    color: #ece1f8;
+}
+
+.comment {
+    font-family: "Inter", sans-serif;
+    color: #e5cdffcc;
+    padding: 1rem;
+}
+
+.comment-section1 {
+    margin-top: 2rem;
 }

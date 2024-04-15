@@ -8,7 +8,7 @@
 
 body {
   background-color: black;
-  color: white;
+  color: rgba(255, 255, 255, 0.884);
 }
 
 :root {
@@ -30,4 +30,8 @@ body {
 
 .nocursor {
   cursor: none;
+}
+
+input {
+  outline: none;
 }
