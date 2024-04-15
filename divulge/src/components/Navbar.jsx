@@ -71,10 +71,10 @@ const Navbar = () => {
                   <p className='words' data-value="GENERATE">GENERATE</p>
                 </a>
                 <a href="#signup">
-                  <p className='words' data-value="SIGN/UP">SIGN/UP</p>
+                  <p className='words' data-value="SIGN/UP/LOGIN">SIGN/UP</p>
                 </a>
-                <a href="https://github.com/aloofist" target='_'>
-                  <p className='words' data-value="GITHUB">GITHUB</p>
+                <a href="https://discord.gg/HHuDE58QYy" target='_'>
+                  <p className='words' data-value="ASK">ASK</p>
                 </a>
             </div>
         </div>

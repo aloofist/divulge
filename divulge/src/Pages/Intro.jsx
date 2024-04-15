@@ -37,29 +37,29 @@ const Intro = () => {
 
  return (
     <>
-      <animated.div
-        id="circle"
-        style={{
-          position: 'absolute',
-          ...animatedCircle,
-        }}
-      ></animated.div>
-
-      <animated.div
-        id="blob"
-        style={{
-          position: 'absolute',
-          ...animatedBlob,
-        }}
-      ></animated.div>
       
-      <div id="blob1"></div>
-      <div id="blob2"></div>
-      <div id="blur"></div>
-
-      <Navbar />
-      <Hero />
-      <Footer />
+        <animated.div
+          id="circle"
+          style={{
+            position: 'absolute',
+            ...animatedCircle,
+          }}
+        ></animated.div>
+        <animated.div
+          id="blob"
+          style={{
+            position: 'absolute',
+            ...animatedBlob,
+          }}
+        ></animated.div>
+        
+        <div id="blob1"></div>
+        <div id="blob2"></div>
+        <div id="blur"></div>
+        <Navbar />
+        <Hero />
+        <Footer />
+      
     </>
  );
 };
