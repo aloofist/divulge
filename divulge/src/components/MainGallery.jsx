@@ -93,19 +93,19 @@ const MainGallery = () => {
 
         <div className='gallery-item'>
           <a href="#post">
-            <img src="https://www.pictureframesexpress.co.uk/blog/wp-content/uploads/2020/05/7-Tips-to-Finding-Art-Inspiration-Header-1024x649.jpg" alt="" />
+            <img src="https://i.pinimg.com/736x/e1/00/42/e10042585f6c46ad3e16b043e9ba4f29.jpg" alt="" />
           </a>
         </div>
 
         <div className='gallery-item'>
           <a href="#post">
-            <img src="https://i.pinimg.com/564x/4f/32/8a/4f328a8851d8f8de2311261fae488c28.jpg" alt="" />
+            <img src="https://plus.unsplash.com/premium_photo-1664116928414-2ab998603666?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" alt="" />
           </a>
         </div>
 
         <div className='gallery-item'>
           <a href="#post">
-            <img src="https://www.pictureframesexpress.co.uk/blog/wp-content/uploads/2020/05/7-Tips-to-Finding-Art-Inspiration-Header-1024x649.jpg" alt="" />
+            <img src="https://images.unsplash.com/photo-1713080045896-0b78f9a6bb55?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
           </a>
         </div>
         <div className='gallery-item'>
