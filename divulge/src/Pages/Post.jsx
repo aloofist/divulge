@@ -97,7 +97,7 @@ const Post = () => {
             <div className='comment-section'>
               
             <div className='commenter'>
-              {/* <p>@You</p> */}
+              
               <input type="text" placeholder='Write a comment...'/>
             </div>
 
