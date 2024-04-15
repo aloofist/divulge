@@ -76,6 +76,11 @@ const Navbar = () => {
                 <a href="https://discord.gg/HHuDE58QYy" target='_'>
                   <p className='words' data-value="ASK">ASK</p>
                 </a>
+                <div style={{display: 'flex', gap: '1rem'}}>
+                  <a style={{color: "white"}} href="https://discord.com/invite/HHuDE58QYy" target="_"><i class="ri-discord-fill"></i></a>
+                  <a style={{color: "white"}} href="https://twitter.com/aloofistprojs" target="_"><i class="ri-twitter-fill"></i></a>
+                  <a style={{color: "white"}} href="https://github.com/aloofist"><i class="ri-github-fill" target="_"></i></a>
+                </div>
             </div>
         </div>
 
