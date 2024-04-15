@@ -6,11 +6,11 @@ const Footer = () => {
     <div class="footer">
       <img src="/divulge_logo_white.svg" alt="Logo"/>
         <h2>Divulge.</h2>
-        <p>© 2024 - Aloofist (my backend teammate disappeared) | All rights reserved.</p>
+        <p>© 2024 - Aloofist -  <i><small>(my backend teammate disappeared)</small></i> | All rights reserved.</p>
         <div style={{display: 'flex', gap: '1rem'}}>
-          <a style={{color: "white"}} href="https://discord.com/invite/HHuDE58QYy" target="_"><i class="ri-discord-fill"></i></a>
-          <a style={{color: "white"}} href="https://twitter.com/aloofistprojs" target="_"><i class="ri-twitter-fill"></i></a>
-          <a style={{color: "white"}} href="https://github.com/aloofist" target="_blank"><i class="ri-github-fill" ></i></a>
+          <a style={{color: "white"}} href="https://discord.com/invite/HHuDE58QYy" target="_"><small class="ri-discord-fill"></small></a>
+          <a style={{color: "white"}} href="https://twitter.com/aloofistprojs" target="_"><small class="ri-twitter-fill"></small></a>
+          <a style={{color: "white"}} href="https://github.com/aloofist" target="_blank"><small class="ri-github-fill" ></small></a>
         </div>
     </div>
   )
