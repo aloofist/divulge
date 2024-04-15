@@ -21,6 +21,41 @@ a {
     cursor: pointer;
 }
 
+@media (max-width: 1000px) {
+  .special-button{
+    background: #884cce;
+    box-shadow: 0px 0px 20px 2px #884cce;
+}
+
+.special-button:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 500px;
+    background: linear-gradient(
+        to right,
+        #884cce,
+        #e79075,
+        #eec6ba,
+        white,
+        #eec6ba,
+        #e79075,
+        #884cce
+    );
+    animation: animate 4s linear infinite;
+    z-index: -1;
+}
+
+.special-button:after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: rgb(255, 255, 255);
+    z-index: -1;
+}
+
+}
+
 .special-button:hover{
     background: #884cce;
     box-shadow: 0px 0px 20px 2px #884cce;
