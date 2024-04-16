@@ -5,4 +5,4 @@
 <img src="https://cdn.discordapp.com/attachments/1225696176725168149/1229723272854110248/image.png?ex=6630b80b&is=661e430b&hm=b2020ae3ef02d4340a3a1b82d9a10e3fd136ce2978c4b0dd09465694193a8a3a&">
 
 <h1>Gallery</h1>
-<img src="[https://cdn.discordapp.com/attachments/1225696176725168149/1229723650303721492/image.png?ex=6630b865&is=661e4365&hm=b8cdb3957dd11e67e9a04e84ab3a139be7d9c00eb93febea30c41b1eb81648aa&](https://media.discordapp.net/attachments/1225696176725168149/1229723650303721492/image.png?ex=6630b865&is=661e4365&hm=b8cdb3957dd11e67e9a04e84ab3a139be7d9c00eb93febea30c41b1eb81648aa&=&format=webp&quality=lossless&width=2118&height=1212)">
+<img src="https://i.imgur.com/Som719X.png">
