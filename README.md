@@ -7,5 +7,5 @@
 <h1>Gallery</h1>
 <img src="https://i.imgur.com/Som719X.png">
 
-<h1>Sign-up/ Login</h1>
+<h1>Signup/ Login</h1>
 <img src="https://i.imgur.com/np20jaX.png">
