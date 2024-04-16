@@ -38,7 +38,7 @@ const Hero = () => {
                 <br/>
                 <span class="magic-words">Creations.</span>
             </h1>
-            <p className='nocursor'>Post and share anything you want! To your friends, family, random people online... anything and anyone you can think of.</p>
+            <p>Post and share anything you want! To your friends, family, random people online... anything and anyone you can think of.</p>
             <Button />
         </div>
 
