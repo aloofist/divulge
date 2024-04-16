@@ -30,9 +30,9 @@ const Hero = () => {
   
 
   return (
-    <div className="main noselect nocursor">
+    <div className="main noselect">
 
-        <div className="info nocursor">
+        <div className="info">
             <h1 className='nocursor'>
               <span>Share your</span>
                 <br/>
