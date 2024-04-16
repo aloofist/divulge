@@ -9,3 +9,6 @@
 
 <h1>Signup/ Login</h1>
 <img src="https://i.imgur.com/np20jaX.png">
+
+<h1>Post an image</h1>
+<img src="https://i.imgur.com/s411Ebz.png">
