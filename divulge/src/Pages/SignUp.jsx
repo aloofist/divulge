@@ -63,7 +63,7 @@ const SignUp = () => {
             <p>Userame</p>
             <input type="text" id="name" placeholder='e.g. aloofist'/>
             <p>Password</p>
-            <input type="text" id="password" placeholder='At least 8 characters please'/>
+            <input type="password" id="password" placeholder='At least 8 characters please'/>
             
             <span style={{marginTop: '2rem', marginBottom: '2rem'}}>
                 {/* <input type="checkbox"/> */}
