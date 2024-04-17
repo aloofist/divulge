@@ -44,7 +44,7 @@ const Login = () => {
             <p>Username</p>
             <input type="text" id="email" placeholder='e.g. aloofist'/>
             <p>Password</p>
-            <input type="text" id="password" placeholder='It should be at least 8 characters long'/>
+            <input type="password" id="password" placeholder='It should be at least 8 characters long'/>
             
             <button>Login</button>
             <p style={{fontStyle: 'italic'}}>Don't have an account? 
