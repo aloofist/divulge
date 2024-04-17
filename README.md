@@ -1,8 +1,8 @@
 <h1>Hero</h1>
-<img src="https://imgur.com/7nr5blo">
+<img src="https://i.imgur.com/7nr5blo.png">
 
 <h1>Generate</h1>
-<img src="https://imgur.com/FW5FE78">
+<img src="https://i.imgur.com/FW5FE78">
 
 <h1>Gallery</h1>
 <img src="https://i.imgur.com/Som719X.png">
