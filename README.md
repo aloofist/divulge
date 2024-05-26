@@ -12,3 +12,6 @@
 
 <h1>Post an image</h1>
 <img src="https://i.imgur.com/s411Ebz.png">
+
+<h1>Navigation</h1>
+<img src="https://i.imgur.com/YdBglOK.png">
